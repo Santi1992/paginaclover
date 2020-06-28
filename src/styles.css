@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+body{
+
+    /* background-image: url("./assets/img/fondo.jpg"); */
+    /* background: #bdc3c7; 
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); */
+    
+    /* background: #ADA996;  
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  */
+
+    /* background: #B993D6;  
+    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  
+    background: linear-gradient(to right, #8CA6DB, #B993D6);  */
+
+    background: #FFEEEE;  
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); 
+
+
+
+}
+
+
+

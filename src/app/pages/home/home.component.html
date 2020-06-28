@@ -1,0 +1,33 @@
+<app-navbar (envio)="navegar($event,[target1,target2])"></app-navbar>
+
+<section class="imgClover"  #target1>
+<app-imgclover></app-imgclover>
+</section>
+
+<section #target2>
+
+    <br>
+    <br>
+    <app-cardshome></app-cardshome>
+
+</section>
+
+<!-- Falta la sección de productos!!! -->
+
+<br>
+
+<app-footerr></app-footerr>
+
+
+<!-- 
+<app-venemergente></app-venemergente> -->
+
+
+<!-- 
+<ul *ngFor="let i of productos" >
+    {{5 > 4 ? "Sip" : "Nop"}}
+ 
+    <li *ngIf="i.descuento === 15">{{i.precio}} - TENGO DESCUENTO !!!</li>
+    <li *ngIf="i.descuento !==15">{{i.precio}} -</li>
+  </ul> -->
+  

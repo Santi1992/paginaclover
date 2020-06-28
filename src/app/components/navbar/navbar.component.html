@@ -1,0 +1,61 @@
+<div class="barra">
+<mat-toolbar color="primary" >
+
+  <mat-toolbar-row>
+   
+    <span class="material-icons">
+        android
+        </span>
+        <span class="material-icons">
+            phone_iphone
+        </span>
+  
+      <div class="navegacionMenu">
+            
+            <span [style.color]="navPrimero" class="elementosNav" (click)="navegarTo(1)">Home</span>
+            <span [style.color]="navSegundo" class="elementosNav" (click)="navegarTo(2)">¿ Qué hacemos?</span>
+            <span [style.color]="navTercero" class="elementosNav" (click)="navegarTo(3)">Productos</span>
+            <span [style.color]="navCuarto" class="elementosNav" (click)="navegarTo(4)">Contacto</span>
+      </div>
+
+
+      <img class="logoBarra" src="../../../assets/logo/clover_logo_favicon_48.ico">
+
+
+      <span class="slogan">Clover Analytica, Expertos en desarrollo</span>
+
+    <button class="botonMenu" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example user verified icon">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <mat-icon>home</mat-icon>
+          <span>Home</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>emoji_people</mat-icon>
+          <span>¿ Qué hacemos ?</span>
+        </button>
+        <button mat-menu-item>
+          <mat-icon>folder</mat-icon>
+          <span>Productos</span>
+        </button>
+          <button mat-menu-item>
+          <mat-icon>contact_phone</mat-icon>
+          <span>Contacto</span>
+        </button>
+      </mat-menu>
+  </mat-toolbar-row>
+
+</mat-toolbar>
+</div>
+
+<br>
+
+
+
+
+
+
+
+

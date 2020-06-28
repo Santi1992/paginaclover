@@ -1,0 +1,25 @@
+.mat-card{
+    width: 350px;
+    z-index: -1;
+    margin-top: 10.5px;
+
+}
+
+.cajaCards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+p{
+    text-align: justify;
+}
+
+
+.mat-raised-button{
+    
+    width: 92.8%;
+    left: 3.6%
+}
